@@ -7,3 +7,19 @@ img {
 body{
 	background-color: #333;
 }
+
+/*Media query*/
+
+@media screen and (max-width: 768px) {
+
+	img#responsive {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	
+	img#responsive {
+		display: none;
+	}
+}
