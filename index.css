@@ -12,6 +12,12 @@ body{
 
 @media screen and (max-width: 768px) {
 
+/*Oculto todas las imagenes*/
+	img{
+		display: none;
+	}
+
+/*Excepto la imagen responsive*/
 	img#responsive {
 		display: block;
 	}
