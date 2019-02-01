@@ -5,6 +5,30 @@ img {
 }
 
 body{
+	
 	background-color: #333;
 	border: 10px solid #344;
+}
+
+/*Media query*/
+
+@media screen and (max-width: 768px) {
+
+/*Oculto todas las imagenes*/
+	img{
+		display: none;
+	}
+
+/*Excepto la imagen responsive*/
+	img#responsive {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	
+	img#responsive {
+		display: none;
+	}
+
 }
